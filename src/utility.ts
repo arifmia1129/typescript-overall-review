@@ -43,3 +43,13 @@ const obj:MyObj = {
     c:"8"
 }
 
+// Record
+
+type Obj = Record<"a" | "b" | "c", string>;
+
+const obj1:Obj = {
+    a:"1",
+    b:"2",
+    c:"8"
+}
+
