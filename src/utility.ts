@@ -31,3 +31,15 @@ const person:Readonly<IPerson> = {
     email:"arif@gmail.com"
 }
 
+// index signature
+
+type MyObj = {
+    [key:string]:string
+}
+
+const obj:MyObj = {
+    a:"1",
+    b:"2",
+    c:"8"
+}
+
