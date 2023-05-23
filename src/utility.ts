@@ -21,3 +21,13 @@ type OptionalType = Partial<IPerson>;
 // Required -> to make all the properties be required
 type RequiredType = Required<IPerson>;
 
+
+// Readonly
+const person:Readonly<IPerson> = {
+    name:"Arif",
+    age:22,
+    gender:"male",
+    phone:"0155555",
+    email:"arif@gmail.com"
+}
+
