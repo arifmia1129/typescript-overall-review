@@ -1,7 +1,8 @@
-import * as Calculate from "./module";
+import calculate from "./utils/index";
+// import * as Calculate from "./module";
 
-const res = Calculate.subtract(10, 5);
+// const res = Calculate.subtract(10, 5);
 
-const add = (param1:number, param2:number, param3:number):number => {
-    return param1 + param2 + param3;
-}
+console.log(calculate.add(2, 3));
+
+
